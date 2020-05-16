@@ -8,4 +8,8 @@ The first tick when changing `clock.granularity` from `minutes` to `seconds` fir
 
 The first tick event `event.date.getSeconds()` reports `0`. The second tick event reports the actual, correct seconds.
 
-See video evidence in actual.m4v
+Confirmed in Fitbit OS Simulator and Fitbit Versa 2 version 70.7.21.
+
+This example code prints the seconds value via console.log and updates the text on screen.
+
+See video evidence in [actual.m4v](https://github.com/jeremiahlee/fitbit-first-tick-seconds-bug/blob/master/actual.m4v?raw=true)
